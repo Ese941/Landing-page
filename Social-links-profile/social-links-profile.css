@@ -1,0 +1,111 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Inter",serif;
+}   
+
+.box {
+    background-color: hsl(0, 0%, 12%);
+    min-width:  375px;
+    height: 600px;
+    margin: 35px 0;
+    border-radius: 10px;
+}
+
+.box .img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 38px;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    font-family: "Inter", serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.links li {
+    padding-bottom: 10px;
+    
+}
+
+.links li a {
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    width: 250px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.15s transform ease;
+}
+
+.links li a:hover {
+    background-color: hsl(0, 0%, 30%);
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+}
